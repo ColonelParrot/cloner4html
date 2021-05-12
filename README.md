@@ -51,4 +51,14 @@ cloner4html is imported via CDN like so:
 <script src="https://cdn.jsdelivr.net/gh/ColonelParrot/cloner4html@1.0/src/script.min.js"></script>
 ```
 
+## Examples
+
+#### Simple copy example
+
+https://jsfiddle.net/ColonelParrot/1o50hrda/
+
+#### Copy with configuration example
+
+https://jsfiddle.net/ColonelParrot/7trapg1e/
+
 [MIT License](https://github.com/ColonelParrot/cloner4html/blob/main/LICENSE)
