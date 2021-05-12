@@ -13,7 +13,7 @@ Most simple usage:
 <div id="elementToClone">
     This is a cool div!
     <h1 data-cid="header">Heading 1</h1>
-    <h2 data-cid="subheader">Subheading 1</h2>;
+    <h2 data-cid="subheader">Subheading 1</h2>
 </div>
 <cloneHTML data-target="#elementToClone" data-depth="deep" />
 ```
