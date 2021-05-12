@@ -2,7 +2,7 @@
 
 ## The `cloneHTML` element
 
-The `cloneHTML` element specifies the target to clone, where to clone it, and the depth at which to clone. Take the following example:
+The `cloneHTML` element specifies the target to clone, where to clone it, and the depth at which to clone.
 
 The following table demonstrates the configurable attributes in the tag:
 
