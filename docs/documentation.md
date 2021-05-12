@@ -22,7 +22,7 @@ For example, the following:
 <cloneHTML data-target="#elementToClone" data-depth="deep" />
 ```
 
-In translated to:
+Is translated to:
 
 ```html
 <div id="elementToClone">
@@ -37,7 +37,7 @@ In translated to:
 </div>
 ```
 
-## The `window.cloner4html` JS configuration object
+## The `window.cloner4html` JS configuration object (optional)
 
 The `window.cloner4html` object specifies the configuration for cloner4html.
 
@@ -70,7 +70,7 @@ window.cloner4html = {
 }
 ```
 
-Once selected, you can select inner elements. This is when the **data-cid** attribute come in.
+Once selected, you can select inner elements. This is when the **data-cid** attribute comes in.
 
 Suppose you have the following:
 
@@ -83,12 +83,9 @@ Suppose you have the following:
 <cloneHTML data-target="#elementToClone" data-depth="deep" />
 ```
 
-If you wanted to change the `h1` element with `"header"` as the `data-cid` attribute value to show something like "Heading 2", you would do the following:
+If you wanted copy but also change the `h1` element to show something like "Heading 2", you would do the following:
 ```javascript
 window.cloner4html = {
-    settings: {
-        'remove-cid': true
-    },
     configuration: {
         "#elementToClone": {
             'header': {
@@ -119,9 +116,6 @@ Similarly, if you want to change the HTML of the element, set the `type` to HTML
 
 ```javascript
 window.cloner4html = {
-    settings: {
-        'remove-cid': true
-    },
     configuration: {
         "#elementToClone": {
             'header': {
