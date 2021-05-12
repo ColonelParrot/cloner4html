@@ -61,4 +61,6 @@ https://jsfiddle.net/ColonelParrot/1o50hrda/
 
 https://jsfiddle.net/ColonelParrot/7trapg1e/
 
+<hr>
+
 [MIT License](https://github.com/ColonelParrot/cloner4html/blob/main/LICENSE)
